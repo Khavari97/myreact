@@ -1,0 +1,4 @@
+{
+    "toplearnapi" : "https://toplearnapi.ghorbany.dev/api/register",
+    "localapi" : "localhost:3001"
+}

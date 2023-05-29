@@ -1,16 +1,13 @@
-import './App.css';
-import {BrowserRouter} from "react-router-dom";
-import MainRoutes from "./routes/MainRoutes";
-import Layout from "./layout/Layout";
+import React from "react";
+import Toplearn from "./containers/Toplearn";
+import { BrowserRouter } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
 
-const App =()=>{
-    return(
-        <BrowserRouter>
-            <Layout>
-                <MainRoutes/>
-            </Layout>
-        </BrowserRouter>
-    );
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Toplearn />
+    </BrowserRouter>
+  );
 }
-
-export default App
+export default App;
